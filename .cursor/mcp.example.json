@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "UnityMcpBridge": {
+      "command": "node",
+      "args": ["tools/unity-mcp-proxy/index.js"],
+      "env": {
+        "UNITY_MCP_DISCOVERY": "${workspaceFolder}/.mcp/unity-mcp.json"
+      }
+    }
+  }
+}
+

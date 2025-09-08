@@ -1,0 +1,9 @@
+{
+  "name": "unity-mcp-proxy",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "bin": { "unity-mcp-proxy": "index.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^0.2.0" }
+}
+

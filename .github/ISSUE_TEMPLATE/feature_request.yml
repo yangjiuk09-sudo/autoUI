@@ -1,0 +1,20 @@
+name: 기능 제안
+description: 새로운 기능이나 개선 사항을 제안합니다.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 문제/니즈 설명
+      description: 어떤 문제를 해결하려 하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 제안하는 해결책
+  - type: textarea
+    id: context
+    attributes:
+      label: 추가 맥락
+

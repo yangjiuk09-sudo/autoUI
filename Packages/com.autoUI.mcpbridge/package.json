@@ -1,0 +1,15 @@
+﻿{
+  "name": "com.autoUI.mcpbridge",
+  "displayName": "MCP Editor Bridge",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Editor-only MCP bridge for UI placement, prefab binding, layout validation, and script generation.",
+  "author": { "name": "autoUI", "url": "https://github.com/yangjiuk09-sudo" },
+  "licensesUrl": "https://github.com/yangjiuk09-sudo/autoUI/blob/main/Packages/com.autoUI.mcpbridge/LICENSE.md",
+  "documentationUrl": "https://yangjiuk09-sudo.github.io/autoUI",
+  "hideInEditor": false,
+  "keywords": ["MCP","Editor","UI","Validation","UPM"],
+  "samples": [
+    { "displayName": "Example Scene", "description": "Sample UI & commands", "path": "Samples~/ExampleScene" }
+  ]
+}

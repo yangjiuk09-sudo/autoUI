@@ -1,0 +1,22 @@
+﻿{
+    "name":  "McpBridge.Editor",
+    "rootNamespace":  "McpBridge.Editor",
+    "references":  [
+                       "UnityEngine.UI",
+                       "UnityEditor",
+                       "Unity.TextMeshPro"
+                   ],
+    "includePlatforms":  [
+                             "Editor"
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "noEngineReferences":  false
+}

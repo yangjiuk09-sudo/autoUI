@@ -1,0 +1,12 @@
+﻿{
+  "name": "McpBridge.Runtime",
+  "rootNamespace": "McpBridge.Runtime",
+  "references": [],
+  "includePlatforms": ["Editor","Android","iOS","WindowsStandalone","OSXStandalone","LinuxStandalone"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}

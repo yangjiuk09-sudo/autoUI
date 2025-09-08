@@ -1,0 +1,41 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+MemoryCaptures/
+Recordings/
+CrashReports/
+
+# Rider/VS/VSCode
+.idea/
+.vs/
+.vscode/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.booproj
+
+# MCP/Cursor
+.mcp/unity-mcp.json
+.cursor/*.local.json
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test/coverage artifacts
+TestResults/
+coverage/
+

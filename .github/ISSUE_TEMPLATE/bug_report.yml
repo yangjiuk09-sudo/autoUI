@@ -1,0 +1,31 @@
+name: 버그 리포트
+description: 동작하지 않거나 기대와 다른 동작을 보고합니다.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 무엇이 발생했나요?
+      description: 기대한 동작과 실제 동작을 설명해주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 단계
+      description: 가능한 한 구체적으로 작성해주세요.
+  - type: input
+    id: unity
+    attributes:
+      label: Unity 버전
+      placeholder: 2022.3.56f1
+  - type: dropdown
+    id: area
+    attributes:
+      label: 영역
+      options:
+        - MCP 연결
+        - 명령 핸들러
+        - 검증 규칙
+        - 문서/CI
+

@@ -1,0 +1,31 @@
+﻿name: Unity Validate & EditMode Tests
+on:
+  push:
+    paths: ['Packages/**','ProjectSettings/**','.github/workflows/unity-validate.yml','Project/**']
+  pull_request:
+    paths: ['Packages/**','Project/**']
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ runner.os }}-${{ hashFiles('**/Packages/manifest.json') }}
+          restore-keys: Library-${{ runner.os }}-
+      - name: Run EditMode Tests
+        id: tests
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          projectPath: Project
+          unityVersion: 2022.3.56f1
+          testMode: EditMode
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results
+          path: ${{ steps.tests.outputs.artifactsPath }}

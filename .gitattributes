@@ -1,0 +1,29 @@
+* text=auto
+
+# Enforce LF for source files
+*.cs eol=lf
+*.csmeta eol=lf
+*.json eol=lf
+*.yaml eol=lf
+*.yml eol=lf
+*.js eol=lf
+*.ts eol=lf
+*.md eol=lf
+*.shader eol=lf
+*.cginc eol=lf
+
+# Keep CRLF on Windows scripts
+*.bat eol=crlf
+*.cmd eol=crlf
+
+# Treat common binary assets as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.mp4 binary
+*.wav binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+

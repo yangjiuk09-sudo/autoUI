@@ -1,0 +1,12 @@
+﻿{
+  "name": "McpBridge.Tests.Editor",
+  "rootNamespace": "McpBridge.Tests",
+  "references": [
+    "McpBridge.Editor",
+    "UnityEditor.TestRunner",
+    "UnityEngine.TestRunner"
+  ],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}
